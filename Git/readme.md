@@ -129,20 +129,20 @@ Git Intro assfd
 # Problems and Mistakes
 * Push to github without password using ssh-key
 
-    If it is asking you for a username and password, your origin remote is pointing at the https url rather than the ssh url.
+If it is asking you for a username and password, your origin remote is pointing at the https url rather than the ssh url.
 
-    Change it to ssh.
+Change it to ssh.
 
-    For example, a github project like Git will have https url
+For example, a github project like Git will have https url
 
     https://github.com/<Username>/<Project>.git
-    and the ssh one:
+and the ssh one:
 
     git@github.com:<Username>/<Project>.git
-    You can do:
+You can do:
 
     git remote set-url origin git@github.com:<Username>/<Project>.git
-    to change the url.
+to change the url.
     
 * In case if you make a mistake (make a tipo for ) and you go away from
     (master) state and have only 
