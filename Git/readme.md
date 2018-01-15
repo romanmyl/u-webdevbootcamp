@@ -126,8 +126,9 @@ Git Intro assfd
 * Pushing to github
 
 
-# Problems and Mistakes
-* Push to github without password using ssh-key
+## Problems and Mistakes
+
+# Push to github without password using ssh-key
 
 If it is asking you for a username and password, your origin remote is pointing at the https url rather than the ssh url.
 
