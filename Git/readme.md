@@ -21,7 +21,7 @@ Git Intro assfd
 
 
 
-#Git Basics
+# Git Basics
 * git init -create repository ".git"(it's actually hidden) and 
             will save there all changes that you'll make in files, 
             that are at this repo!
@@ -32,7 +32,7 @@ Git Intro assfd
                on github), which are added to commit
 
 
-#Git Checkout
+# Git Checkout
 * git log - this will giv us a history or a log of all the commits
             that we've made in this repo. To get out of this You
             can type Q. 
@@ -121,11 +121,11 @@ Git Intro assfd
 
 
 
-#Cloning and Github Intro
+# Cloning and Github Intro
 * What is Github?
 * Cloning an existing repo
 
-#Pushing to Github
+# Pushing to Github
 * Creating a repo on github
 * Adding a remote
 * Pushing to github
