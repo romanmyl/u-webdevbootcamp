@@ -146,9 +146,11 @@ You can do:
 to change the url.
     
 * In case if you make a mistake (make a tipo for ) and you go away from
-    (master) state and have only 
-    >       
-    to takes away from this state type:
+(master) state and have only 
+    
+    ">" 
+to takes away from this state type:
+    
     ctrl + C
 
 ## Push to github from cloud9
