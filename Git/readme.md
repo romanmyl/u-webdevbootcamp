@@ -11,10 +11,7 @@ Git Intro assfd
 
 * ctrl + K - clear out workspace terminal
 * ls -a - show .git directory. content include hidden elements
-* In case if you make a mistake (make a tipo for ) and you go away from
-    (master) state and have only 
-    >       to takes away from this state type:
-    ctrl + C
+
 
 
 * git   --version
@@ -119,8 +116,6 @@ Git Intro assfd
 
 
 
-
-
 # Cloning and Github Intro
 * What is Github?
 * Cloning an existing repo
@@ -129,3 +124,43 @@ Git Intro assfd
 * Creating a repo on github
 * Adding a remote
 * Pushing to github
+
+
+# Problems and Mistakes
+* Push to github without password using ssh-key
+
+    If it is asking you for a username and password, your origin remote is pointing at the https url rather than the ssh url.
+
+    Change it to ssh.
+
+    For example, a github project like Git will have https url
+
+    https://github.com/<Username>/<Project>.git
+    and the ssh one:
+
+    git@github.com:<Username>/<Project>.git
+    You can do:
+
+    git remote set-url origin git@github.com:<Username>/<Project>.git
+    to change the url.
+    
+* In case if you make a mistake (make a tipo for ) and you go away from
+    (master) state and have only 
+    >       
+    to takes away from this state type:
+    ctrl + C
+
+# Push to github from cloud9
+
+Add a git remote in the Cloud9 console. Should look like this (replace the git url with your repo url): 
+
+    git remote add origin git@github.com:C9Support/testPush.git 
+
+Add files and commit them:
+
+    git add . 
+    git commit -m "First commit"
+
+Push to github: 
+
+    git push -u origin master
