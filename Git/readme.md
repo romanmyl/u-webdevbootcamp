@@ -126,9 +126,9 @@ Git Intro assfd
 * Pushing to github
 
 
-## Problems and Mistakes
+# Problems and Mistakes
 
-# Push to github without password using ssh-key
+## Push to github without password using ssh-key
 
 If it is asking you for a username and password, your origin remote is pointing at the https url rather than the ssh url.
 
@@ -151,7 +151,7 @@ to change the url.
     to takes away from this state type:
     ctrl + C
 
-# Push to github from cloud9
+## Push to github from cloud9
 
 Add a git remote in the Cloud9 console. Should look like this (replace the git url with your repo url): 
 
